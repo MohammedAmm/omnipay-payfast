@@ -10,9 +10,19 @@
         "payfast",
         "payment"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-payfast",
+    "homepage": "https://github.com/MohammedAmm/omnipay-payfast",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Mohamed Ashraf",
+            "email": "mohammed.ashraaf.ma@gmail.com",
+            "homepage": "https://github.com/ArinaSystemsAgency"
+        },
+        {
+            "name": "ArinaSystems Agency",
+            "email": "arinasystems@gmail.com",
+            "homepage": "https://github.com/ArinaSystemsAgency"
+        },
         {
             "name": "Adrian Macneil",
             "email": "adrian@adrianmacneil.com"
@@ -26,7 +36,7 @@
         "psr-4": { "Omnipay\\PayFast\\" : "src/" }
     },
     "require": {
-        "omnipay/common": "~2.0"
+        "omnipay/common": "^3"
     },
     "require-dev": {
         "omnipay/tests": "~2.0"
